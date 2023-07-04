@@ -1,0 +1,25 @@
+{
+    "name": "bl4ckp4nd4/laravel-crypto-invoice",
+    "description": "Laravel Crypto invoice System that Support pay Invoices by Cryptocurrencies",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BlackPanda\\LaravelCryptoInvoice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BlackPanda",
+            "email": "46260610+B14ckP4nd4@users.noreply.github.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BlackPanda\\LaravelCryptoInvoice\\CryptoInvoiceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
